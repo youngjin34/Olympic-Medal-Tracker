@@ -1,0 +1,42 @@
+.medalContainer {
+  margin: 0 auto 20px; /* 상하 0, 좌우 auto로 중앙 정렬 */
+  margin-top: 30px;
+  max-width: 1200px; /* 최대 너비 설정, 필요에 따라 조정 가능 */
+  width: 90%; /* 화면 너비의 90%로 설정 */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 선택적: 그림자 효과 추가 */
+}
+
+.medalTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.medalTable th,
+.medalTable td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.medalTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.medalTable tr:last-child td {
+  border-bottom: none;
+}
+/* 
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #f2f2f2;
+} */
+
+.buttonContainer button {
+  margin-left: 10px;
+}

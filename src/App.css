@@ -1,0 +1,43 @@
+.app-container {
+  max-width: 1200px; /* 또는 원하는 너비 */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.medal-form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-right: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+}
+
+select {
+  margin-top: 30px;
+}
